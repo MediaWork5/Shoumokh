@@ -1,0 +1,492 @@
+/*********** starting the constant *************/ 
+@font-face {
+    font-family: DroidArabicKufiRegular;
+    src: url(../fonts/DroidArabicKufiRegular.ttf);
+}
+body
+{
+    font-family: 'DroidArabicKufiRegular';
+    text-align: right;
+}
+/*********** End the constant *************/
+/* ************************************** */
+
+/* ******************************** Start Home Page ******************************************** */
+/******************** Start Main *********/
+/****intro****/
+main > .intro > .carousel > .carousel-inner > .carousel-item > div > h5{
+    width: 350px;
+}
+@media (max-width: 1199px) {
+    main > .intro > .carousel > .carousel-inner > .carousel-item > div > h5{
+        width: 300px;
+    }
+}
+@media (max-width: 991px) {
+    main > .intro > .carousel > .carousel-inner > .carousel-item > div > h5{
+        width: 250px;
+    }
+}
+@media (max-width: 767px) {
+    main > .intro > .carousel > .carousel-inner > .carousel-item > div > h5{
+        width: 200px;
+    }
+}
+@media (max-width: 575px) {
+    main > .intro > .carousel > .carousel-inner > .carousel-item > div > h5{
+        width: 150px;
+    }
+}
+/*****nav******/
+main > nav > .container > .row > div:first-child > div > a {
+    font-size: 17px;
+    margin: 0 5px;
+}
+main > nav > .container > .row > div:nth-child(2) {
+    text-align: right;
+}
+@media (max-width: 1199px) {
+    main > nav > .container > .row > div:first-child > div > a {
+        font-size: 16px;
+        margin: 0 4px;
+    }
+}
+@media (max-width: 991px) {
+    main > nav > .container > .row > div:first-child > div > a {
+        font-size: 13px;
+        margin: 0 3px;
+    }
+}
+@media (max-width: 767px) {
+    main > nav > .container > .row > div:nth-child(1) {
+        right: 35px;
+        border-radius:15px 15px 0 ;
+    }
+    main > nav > .container > .row > div:nth-child(1) > div > a {
+        font-size: 14px;
+        padding: 0 0 5px;
+        margin: 8px auto;
+    }
+    main > nav > .container > .row > div:nth-child(2) > a {
+        float: left;
+    }
+}
+@media (max-width: 575px) {
+    main > nav > .container > .row > div:nth-child(1) {
+        border-radius:10px 10px 0 ;
+    }
+    main > nav > .container > .row > div:nth-child(1) > div > a {
+        font-size: 10px;
+        padding: 0 0 3px;
+        margin: 5px auto;
+    }
+}
+/**************** End Main *****************/
+/* *************************************** */
+/*************** Start hotel ***************/
+.hotel {
+    font-family: 'DroidArabicKufiRegular';
+}
+.hotel > .container > div > h1 {
+    font-size: 250px;
+}
+.hotel > .container > div > p {
+    font-size: 85px;
+}
+/* Responsive */
+@media (max-width: 1199px) {
+    .hotel > .container > div > h1 {
+        font-size: 215px;
+    }
+    .hotel > .container > div > p {
+        font-size: 75px;
+    }
+}
+@media (max-width: 991px) {
+    .hotel > .container > div > h1 {
+        font-size: 180px;
+    }
+    .hotel > .container > div > p {
+        font-size: 65px;
+    }
+}
+@media (max-width: 767px) {
+    .hotel > .container > div > h1 {
+        font-size: 145px;
+    }
+    .hotel > .container > div > p {
+        font-size: 55px;
+    }
+}
+@media (max-width: 575px) {
+    .hotel > .container > div > h1 {
+        font-size: 75px;
+    }
+    .hotel > .container > div > p {
+        font-size: 25px;
+    }
+}
+/*************** End hotel ****************/
+/******************************************/
+/************** Start Service *************/
+.service > div:nth-child(3) > .container > .row > div > p {
+    font-family: 'DroidArabicKufiRegular';
+    font-size: 18px;
+}
+/* Responsive */
+@media (max-width: 1199px) {
+    .service > div:nth-child(3) > .container > .row > div > p {
+        font-size: 17px;
+    }
+}
+@media (max-width: 991px) {
+    .service > div:nth-child(3) > .container > .row > div > p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 767px) {
+    .service > div:nth-child(3) > .container > .row > div > p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 575px) {
+    .service > div:nth-child(3) > .container > .row > div > p {
+        font-size: 10px;
+    }
+}
+/***************  End Service  *************/
+/*******************************************/
+
+/* ************************************  End Home Page  **************************************** */
+/* ********************************************************************************************* */
+
+/* ************************************ Start About Page *************************************** */
+/**************** Start about **************/
+.about > div:nth-child(3) > .container > .row > div:first-child > div > p {
+    font-size: 18px;
+    font-family: 'DroidArabicKufiRegular';
+}
+/* Responsive */
+@media (max-width: 1199px) {
+    .about > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 16px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 991px) {
+    .about > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 15px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 767px) {
+    .about > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 14px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 575px) {
+    .about > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 12px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+/*************** End about *****************/
+/* ************************************  End About Page  *************************************** */
+/* ********************************************************************************************* */
+
+/* ********************************** Start operation Page *************************************** */
+/**************** Start operation **************/
+.operation > div:nth-child(3) > .container > .row > div:first-child > div > p {
+    font-size: 18px;
+    font-family: 'DroidArabicKufiRegular';
+}
+/* Responsive */
+@media (max-width: 1199px) {
+    .operation > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 16px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 991px) {
+    .operation > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 15px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 767px) {
+}
+.operation > div:nth-child(3) > .container > .row > div:first-child > div > p {
+    font-size: 14px;
+    font-family: 'DroidArabicKufiRegular';
+}
+@media (max-width: 575px) {
+    .operation > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 12px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+/*************** End operation *****************/
+/* ***********************************  End operation Page *************************************** */
+/* *********************************************************************************************** */
+
+/* ************************************ Start marketing Page ************************************* */
+/**************** Start marketing **************/
+.marketing > div:nth-child(3) > .container > .row > div:first-child > div > p {
+    font-size: 18px;
+    font-family: 'DroidArabicKufiRegular';
+}
+/* Responsive */
+@media (max-width: 1199px) {
+    .marketing > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 16px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 991px) {
+    .marketing > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 15px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 767px) {
+    .marketing > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 14px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 575px) {
+    .marketing > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 12px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+/****************  End marketing  **************/
+/* ************************************ End marketing Page ************************************* */
+/* ********************************************************************************************* */
+
+/* ************************************ Start revenue Page ************************************* */
+/**************** Start revenue **************/
+.revenue > div:nth-child(3) > .container > .row > div:first-child > div > p {
+    font-size: 18px;
+    font-family: 'DroidArabicKufiRegular';
+}
+.revenue > div:nth-child(3) > .container > .row > div:nth-child(2) > p {
+    font-size: 18px;
+    font-family: 'DroidArabicKufiRegular';
+    margin-right: 150px;
+    margin-left: 0;
+}
+.revenue > div:nth-child(3) > .container > .row > div:nth-child(2) > .row > div > div {
+    margin-right: 150px;
+    margin-left: 0;
+}
+.revenue > div:nth-child(3) > .container > .row > div:nth-child(2) > .row > div > div > p{
+    font-size: 16px;
+    font-family: 'DroidArabicKufiRegular';
+}
+/* Responsive */
+@media (max-width: 1199px) {
+    .revenue > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 16px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+    .revenue > div:nth-child(3) > .container > .row > div:nth-child(2) > p {
+        font-size: 16px;
+        font-family: 'DroidArabicKufiRegular';
+        margin-right: 130px;
+        margin-left: 0;
+    }
+    .revenue > div:nth-child(3) > .container > .row > div:nth-child(2) > .row > div > div {
+        margin-right: 130px;
+        margin-left: 0;
+    }
+    .revenue > div:nth-child(3) > .container > .row > div:nth-child(2) > .row > div > div > p{
+        font-size: 15px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 991px) {
+    .revenue > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 15px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+    .revenue > div:nth-child(3) > .container > .row > div:nth-child(2) > p {
+        font-size: 15px;
+        font-family: 'DroidArabicKufiRegular';
+        margin-right: 65px;
+        margin-left: 0;
+    }
+    .revenue > div:nth-child(3) > .container > .row > div:nth-child(2) > .row > div > div {
+        margin-right: 65px;
+        margin-left: 0;
+    }
+    .revenue > div:nth-child(3) > .container > .row > div:nth-child(2) > .row > div > div > p{
+        font-size: 14px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 767px) {
+    .revenue > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 14px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+    .revenue > div:nth-child(3) > .container > .row > div:nth-child(2) > p {
+        font-size: 14px;
+        font-family: 'DroidArabicKufiRegular';
+        margin-right: 10px;
+        margin-left: 0;
+    }
+    .revenue > div:nth-child(3) > .container > .row > div:nth-child(2) > .row > div > div {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+    .revenue > div:nth-child(3) > .container > .row > div:nth-child(2) > .row > div > div > p{
+        font-size: 13px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 575px) {
+    .revenue > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 12px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+    .revenue > div:nth-child(3) > .container > .row > div:nth-child(2) > p {
+        font-size: 12px;
+        font-family: 'DroidArabicKufiRegular';
+        margin-right: 5px;
+        margin-left: 0;
+    }
+    .revenue > div:nth-child(3) > .container > .row > div:nth-child(2) > .row > div > div {
+        margin-right: 5px;
+        margin-left: 0;
+    }
+    .revenue > div:nth-child(3) > .container > .row > div:nth-child(2) > .row > div > div > p{
+        font-size: 11px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+/****************  End revenue  **************/
+/* ************************************  End revenue Page  ************************************* */
+/* ********************************************************************************************* */
+
+/* ********************************** Start business Page ************************************** */
+/**************** Start marketing **************/
+.business > div:nth-child(3) > .container > .row > div:first-child > div > p {
+    font-size: 18px;
+    font-family: 'DroidArabicKufiRegular';
+}
+/* Responsive */
+@media (max-width: 1199px) {
+    .business > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 16px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 991px) {
+    .business > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 15px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 767px) {
+    .business > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 13px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 575px) {
+    .business > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 12px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+/***************** End marketing ***************/
+/* **********************************  End business Page  ************************************** */
+/* ********************************************************************************************* */
+
+/* ************************************ Start wedo Page **************************************** */
+/**************** Start wedo **************/
+.wedo > div:nth-child(3) > .container > .row > div:first-child > div > p {
+    font-size: 16px;
+    font-family: 'DroidArabicKufiRegular';
+}
+/* Responsive */
+@media (max-width: 1199px) {
+    .wedo > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 15px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 991px) {
+    .wedo > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 14px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 767px) {
+    .wedo > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 12px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 575px) {
+}
+/****************  End wedo  **************/
+/* ************************************  End wedo Page  **************************************** */
+/* ********************************************************************************************* */
+
+/* ************************************ Start thanks Page *************************************** */
+/**************** Start thanks **************/
+.thanks > div:nth-child(3) > .container > .row > div:first-child > div > p {
+    font-size: 18px;
+    font-family: 'DroidArabicKufiRegular';
+}
+.thanks > div:nth-child(3) > .container > .row > div:nth-child(2) > .row > div > div > p{
+    font-size: 16px;
+    font-family: 'DroidArabicKufiRegular';
+}
+/* Responsive */
+@media (max-width: 1199px) {
+    .thanks > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 16px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+    .thanks > div:nth-child(3) > .container > .row > div:nth-child(2) > .row > div > div > p{
+        font-size: 15px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 991px) {
+    .thanks > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 15px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+    .thanks > div:nth-child(3) > .container > .row > div:nth-child(2) > .row > div > div > p{
+        font-size: 14px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 767px) {
+    .thanks > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 14px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+    .thanks > div:nth-child(3) > .container > .row > div:nth-child(2) > .row > div > div > p{
+        font-size: 13px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+@media (max-width: 575px) {
+    .thanks > div:nth-child(3) > .container > .row > div:first-child > div > p {
+        font-size: 12px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+    .thanks > div:nth-child(3) > .container > .row > div:nth-child(2) > .row > div > div > p{
+        font-size: 11px;
+        font-family: 'DroidArabicKufiRegular';
+    }
+}
+/**************** Start thanks **************/
+/* ************************************  End thanks Page *************************************** */
+/* ********************************************************************************************* */
